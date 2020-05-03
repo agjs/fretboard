@@ -1,0 +1,76 @@
+html {
+ background: #795548;
+}
+ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+.fretboard {
+  
+  padding: 10px;
+  z-index: -1;
+
+}
+
+.string {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+
+}
+
+.string  {
+  position: relative;
+  margin: 20px 0;
+}
+
+.string p {
+  /* background: red; */
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  background: black;
+  z-index: 9999;
+  line-height: 50px;
+}
+
+.string div {
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  top: 40%;
+}
+
+.fretboard .string:nth-child(1) div {
+  height: 1px;
+}
+
+.fretboard .string:nth-child(2) div {
+  height: 2px;
+}
+
+.fretboard .string:nth-child(3) div {
+  height: 3px;
+}
+
+.fretboard .string:nth-child(4) div {
+  height: 4px;
+}
+
+.fretboard .string:nth-child(5) div {
+  height: 5px;
+}
+
+
+.fretboard .string:nth-child(6) div {
+  height: 6px;
+}
+
+
